@@ -28,7 +28,7 @@
                 "fb_ad_delay_for_first_rewarded_video": 0
             },
             "leaderboard": {
-                "enabled": true
+                "enabled": false
             }
         }
     }
