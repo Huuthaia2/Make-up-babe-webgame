@@ -4,7 +4,7 @@
     "instance": "FBInstant",
     "features": {
         "ads": {
-            "enabled": false,
+            "enabled": true,
             "isTest": true,
             "config": {
                 "interstitial": "4864743603539728_5070034729677280",
