@@ -9478,9 +9478,7 @@ window.Laya = function(t) {
 			}, n.onload = function(t) {
                 console.log("onload:"+t);
 				a._onLoad(t)
-			}, n.send(e) = function(e) {
-                console.log("send:"+e); 
-			}
+			}, n.send(e)  
 		}
 		_onProgress(t) {
 			t && t.lengthComputable && this.event(Ht.PROGRESS, t.loaded / t.total)
