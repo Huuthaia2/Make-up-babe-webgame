@@ -9456,7 +9456,10 @@ window.Laya = function(t) {
 				n = this._http;
 			if (t = C.getAdptedFilePath(t), n.open(i, t, !0), r)
 				for (var h = 0; h < r.length; h++) n.setRequestHeader(r[h++], r[h]);
-			else window.conch || (e && "string" != typeof e ? n.setRequestHeader("Content-Type", "application/json") : n.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"));
+			else {
+				console.log("e:"+e);
+			 	window.conch || (e && "string" != typeof e ? n.setRequestHeader("Content-Type", "application/json") : n.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"));
+			}
 			let o = "arraybuffer" !== s ? "text" : "arraybuffer";
 			n.responseType = o, n.dataType && (n.dataType = o), n.onerror = function(t) {
 				a._onError(t)
