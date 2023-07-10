@@ -5351,6 +5351,7 @@ window.Laya = function(t) {
 			this._timeId = 0, ae._mainCanvas = s;
 			let r = ae._mainCanvas.source;
 			r.id = "layaCanvas", r.width = t, r.height = e, ae.isConchApp && document.body.appendChild(r), this.initRender(ae._mainCanvas, t, e), window.requestAnimationFrame(function loop(t) {
+				return;
 				i.stage._loop();
 				window.requestAnimationFrame(loop)
 			}), i.stage.on("visibilitychange", this, this._onVisibilitychange)
@@ -9463,7 +9464,7 @@ window.Laya = function(t) {
 				}
 			else {
 				console.log("e:"+e);
-			 	window.conch || (e && "string" != typeof e ? n.setRequestHeader("Content-Type", "application/json") : n.setRequestHeader("Content-Type", "multipart/form-data"));
+			 	window.conch || (e && "string" != typeof e ? n.setRequestHeader("Content-Type", "application/json") : n.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"));
 			}
 			let o = "arraybuffer" !== s ? "text" : "arraybuffer";
 			n.responseType = o, n.dataType && (n.dataType = o), n.onerror = function(t) {
