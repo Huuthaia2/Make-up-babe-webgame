@@ -1,0 +1,1 @@
+{"type":"Sprite","props":{"width":40,"presetID":1,"name":"ClassStageMathIconItem","isPresetRoot":true,"height":60},"compId":45,"child":[{"type":"Sprite","props":{"y":1,"x":0,"texture":"res/ui/pnl_class_stage_math/item_03.png","scaleY":0.7,"scaleX":0.7,"presetID":2,"name":"cc_icon"},"compId":46}],"loadList":["res/ui/pnl_class_stage_math/item_03.png"],"loadList3D":[]}

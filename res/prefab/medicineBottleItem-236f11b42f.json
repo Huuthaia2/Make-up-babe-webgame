@@ -1,0 +1,1 @@
+{"type":"Sprite","props":{"y":0,"x":0,"width":50,"presetID":1,"name":"medicineBottleItem","isPresetRoot":true,"height":90},"compId":158,"child":[{"type":"Image","props":{"y":7,"x":-3,"width":55,"presetID":16,"name":"cc_imageBg","height":76},"compId":179}],"loadList":[],"loadList3D":[]}
