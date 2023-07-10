@@ -5,7 +5,7 @@
     "features": {
         "ads": {
             "enabled": true,
-            "isTest": false,
+            "isTest": true,
             "config": {
                 "interstitial": "4864743603539728_5070034729677280",
                 "banner": "4864743603539728_5070034729677280",
@@ -28,7 +28,7 @@
                 "fb_ad_delay_for_first_rewarded_video": 0
             },
             "leaderboard": {
-                "enabled": true
+                "enabled": false
             }
         }
     }
