@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"name":"MainScene"},"compId":2,"child":[{"type":"Script","props":{"y":0,"x":0,"runtime":"script/extensions/component/UIRoot.ts"},"compId":20},{"type":"Script","props":{"y":0,"x":0,"runtime":"Start.ts"},"compId":21}],"loadList":[],"loadList3D":[]}
