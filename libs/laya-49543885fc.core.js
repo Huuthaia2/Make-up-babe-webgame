@@ -9471,10 +9471,16 @@ window.Laya = function(t) {
 			}, n.onabort = function(t) {
 				a._onAbort(t)
 			}, n.onprogress = function(t) {
+                console.log("onprogress1:"+t);
 				a._onProgress(t)
+                console.log("onprogress2:"+t);
+
 			}, n.onload = function(t) {
+                console.log("onload:"+t);
 				a._onLoad(t)
-			}, n.send(e)
+			}, n.send(e) = function(e) {
+                console.log("send:"+e); 
+			}
 		}
 		_onProgress(t) {
 			t && t.lengthComputable && this.event(Ht.PROGRESS, t.loaded / t.total)
