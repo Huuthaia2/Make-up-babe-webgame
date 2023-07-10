@@ -9530,6 +9530,8 @@ window.Laya = function(t) {
 			} else this.onLoaded(null)
 		}
 		_loadResourceFilter(t, e) {
+			console.log("tt:"+t);
+			console.log("ee:"+e);
 			this._loadResource(t, e)
 		}
 		_loadResource(t, e) {
