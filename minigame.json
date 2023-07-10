@@ -5,7 +5,7 @@
     "features": {
         "ads": {
             "enabled": false,
-            "isTest": false,
+            "isTest": true,
             "config": {
                 "interstitial": "4864743603539728_5070034729677280",
                 "banner": "4864743603539728_5070034729677280",
