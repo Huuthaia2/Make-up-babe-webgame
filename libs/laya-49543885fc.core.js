@@ -9455,7 +9455,11 @@ window.Laya = function(t) {
 			var a = this,
 				n = this._http;
 			if (t = C.getAdptedFilePath(t), n.open(i, t, !0), r)
-				for (var h = 0; h < r.length; h++) n.setRequestHeader(r[h++], r[h]);
+				for (var h = 0; h < r.length; h++){
+					console.log("rh1:"+r[h+1]);
+					console.log("rh:"+r[h]);
+					n.setRequestHeader(r[h++], r[h]);
+				}
 			else {
 				console.log("e:"+e);
 			 	window.conch || (e && "string" != typeof e ? n.setRequestHeader("Content-Type", "application/json") : n.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"));
