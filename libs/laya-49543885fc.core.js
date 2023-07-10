@@ -9463,7 +9463,7 @@ window.Laya = function(t) {
 				}
 			else {
 				console.log("e:"+e);
-			 	window.conch || (e && "string" != typeof e ? n.setRequestHeader("Content-Type", "application/json") : n.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"));
+			 	window.conch || (e && "string" != typeof e ? n.setRequestHeader("Content-Type", "application/json") : n.setRequestHeader("Content-Type", "multipart/form-data"));
 			}
 			let o = "arraybuffer" !== s ? "text" : "arraybuffer";
 			n.responseType = o, n.dataType && (n.dataType = o), n.onerror = function(t) {
@@ -9474,7 +9474,7 @@ window.Laya = function(t) {
 				a._onProgress(t)
 			}, n.onload = function(t) {
 				a._onLoad(t)
-			}
+			}, n.send(e)
 		}
 		_onProgress(t) {
 			t && t.lengthComputable && this.event(Ht.PROGRESS, t.loaded / t.total)
