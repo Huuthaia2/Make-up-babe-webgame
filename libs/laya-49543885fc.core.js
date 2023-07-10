@@ -5351,7 +5351,7 @@ window.Laya = function(t) {
 			this._timeId = 0, ae._mainCanvas = s;
 			let r = ae._mainCanvas.source;
 			r.id = "layaCanvas", r.width = t, r.height = e, ae.isConchApp && document.body.appendChild(r), this.initRender(ae._mainCanvas, t, e), window.requestAnimationFrame(function loop(t) {
-				return;
+				
 				i.stage._loop();
 				window.requestAnimationFrame(loop)
 			}), i.stage.on("visibilitychange", this, this._onVisibilitychange)
