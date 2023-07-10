@@ -1,6 +1,6 @@
 {
     "platform": "minigame",
-    "sdk": "/js/1.0/minigame-sdk.js",
+    "sdk": "https://sdk.minigame.vip/js/1.0/minigame-sdk.js",
     "instance": "FBInstant",
     "features": {
         "ads": {
