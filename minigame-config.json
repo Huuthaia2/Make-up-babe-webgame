@@ -1,0 +1,24 @@
+{
+  "appId":"yeloli-makeup",
+  "last_modified":"202109301051",
+  "afg":{
+    "attributes":{
+      "data-ad-client":"ca-pub-3962242587190395",
+      "data-ad-channel":"4733526391",
+      "data-ad-frequency-hint":"30s"
+    },
+    "config":{
+      "preloadAdBreaks":"on",
+      "onReady":true  
+    }
+  },
+  "ga":{   
+    "attributes":{
+
+    },
+    "config":{
+      "gid":"G-HEVYLDTM6P"
+    }
+  }
+
+}
