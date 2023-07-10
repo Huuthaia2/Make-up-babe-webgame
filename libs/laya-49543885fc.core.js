@@ -9448,6 +9448,7 @@ window.Laya = function(t) {
 			super(...arguments), this._http = new XMLHttpRequest
 		}
 		send(t, e = null, i = "get", s = "text", r = null) {
+      console.log("e:"+e);
       console.log("t:"+t);
       console.log("s:"+s);
       console.log("i:"+i);
@@ -9507,12 +9508,15 @@ window.Laya = function(t) {
 			t.onerror = t.onabort = t.onprogress = t.onload = null
 		}
 		get url() {
+      			console.log("url:"+this._url);
+			
 			return this._url
 		}
 		get data() {
 			return this._data
 		}
 		get http() {
+			console.log("_http:"+this._http);
 			return this._http
 		}
 	}
